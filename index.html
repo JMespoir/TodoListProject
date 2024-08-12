@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>ToDoList</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <div id="MainContainer">
+
+    <div id="inputContainer">
+      <input id="inputText" type="text" placeholder="해야할 일" maxlength="20"> <button id="enterButton">입력</button>
+    </div>
+
+    <div id="printContainer">
+      <ul id="printList" style="list-style-type: none;">
+
+      </ul>
+    </div>
+
+  </div>
 </body>
+<script src="script.js"></script>
 
 </html>
